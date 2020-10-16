@@ -1,0 +1,334 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+  height: 100px;
+  background-color: #000000;
+ 
+  color: white;
+}
+body{
+	
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url('https://logancountyrecycles.com/wp-content/uploads/2017/02/background-no-mountains-bottom.jpg');
+	  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+ 
+}
+.Name{
+  margin-left: 30px;
+  padding-top: 20px;
+  display: flex;
+  font-size: 30px;
+
+}
+.slogan{
+  margin-left: 30px;
+  color: red;
+  margin-top: -15px;
+  font-weight: bold;
+}
+.menu{
+  text-align:right;
+  margin-top: -45px;
+  margin-right:40px;
+}
+.menu ul{
+  display: inline-flex;
+  list-style: none;
+}
+
+.submenu{
+  display:none;
+  background-color: black;
+ 
+  padding: 5px;
+}
+.subtitle{
+  display:none;
+  background-color: black;
+  padding: 5px;
+}
+.menu-items:hover{
+  color:white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.menu ul li:hover .submenu{
+  display: block;
+  position: absolute;
+  margin-left: -15px;
+}
+.menu ul li:hover .submenu ul{
+  display: block;
+  margin:10px;
+}
+.menu ul li:hover .submenu ul li{
+  width:150px;
+  border-bottom: 1px solid #fff;
+  background:transparent;
+  border-radius: 0;
+  padding: 5px;
+  font-weight: bolder;
+  text-align: center;
+
+}
+#drop-content a{
+  display: none;
+}
+#navbar-collapse-1 ul li:hover #drop-content a{
+display: block;
+padding: 3px;
+color:white;
+margin-left: 370px;
+width: 200px;
+text-decoration: none;
+background-color: blue;
+margin-bottom: 2px;
+
+ }
+  @media(max-width:655px){
+  #navbar-collapse-1 ul li:hover #drop-content a{
+    margin-left:300px;
+  }
+ }
+  @media(max-width:530px){
+  #navbar-collapse-1 ul li:hover #drop-content a{
+    margin-left:250px;
+  }
+ }
+
+ #navbar-collapse-1 ul li:hover #drop-content a:hover{
+ font-size: 15px;
+ }
+.menu ul li:hover .submenu ul li:last-child{
+  border-bottom:none;
+}
+.menu ul li:hover .submenu ul li a:hover{
+  color: white;
+  text-decoration: none;
+  font-size:15px; 
+}
+.menu ul li:hover .subtitle{
+  display: block;
+  position: absolute;
+  margin-left: -15px;
+}
+.menu ul li:hover .subtitle ul{
+  display: block;
+  margin:10px;
+}
+.menu ul li:hover .subtitle ul li{
+  width:150px;
+  border-bottom: 1px solid #fff;
+  background:transparent;
+  border-radius: 0;
+  padding: 5px;
+  font-weight: bolder;
+  text-align: center;
+
+}
+
+.menu ul li:hover .subtitle ul li:last-child{
+  border-bottom:none;
+}
+.menu ul li:hover .subtitle ul li a:hover{
+  color: white;
+  text-decoration: none;
+  font-size:15px; 
+}
+.menu-items{
+  margin-right: 15px;
+  text-decoration: none;
+  color: #7c5295;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+
+
+div .navbar-toggle{
+  right: 0;
+   position: fixed;
+  border: 1px solid #7c5295;
+  top: 30px;
+}
+#icon{
+  border: 1px solid #7c5295;
+}
+
+
+div .navbar-collapse{
+  background-color: black;
+  text-align: center;
+}
+#tile a{
+  font-weight: bolder;
+  color: #3944bc;
+
+
+}
+
+#tile a:hover{
+
+font-size: 15px;
+color: white;
+background-color: transparent;
+}
+
+
+
+.commercialintro h2{ color: #202020;
+  margin-left:  25px;
+  font-weight: bolder;}
+.commercialintro h2:hover{
+  font-size: 35px;
+}
+.commercialintro p{
+  
+  width: 50%;
+  color: #202020;
+  margin-left:  25px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.commercialimg{
+height: 250px;
+  width: 30%;
+  float:right;
+  margin-right: 60px;
+  margin-top: -270px;
+   border: 2px solid black;
+  box-shadow: 5px 10px	#4169E1;
+}
+.survey h2{
+  color: #202020;
+  margin-left:  25px;
+  font-weight: bolder;
+
+}
+.survey p{
+   width: 90%;
+  color: #202020;
+  margin-left:  25px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.management h2{
+  color: #202020;
+  margin-left:  25px;
+  font-weight: bolder;
+}
+.management p{
+  width: 90%;
+  color: #202020;
+  margin-left:  25px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.managementimg{
+  height: 225px;
+  width: 30%;
+  float:right;
+  margin-right: 60px;
+  border: 2px solid black;
+  box-shadow: 5px 10px	#4169E1;
+}
+}
+
+@media(max-width: 1050px){
+  .commercialimg{
+    margin-top: -300px;
+  }
+}
+@media(max-width: 895px){
+  .commercialimg{
+    margin-top: -340px;
+  }
+}
+@media(max-width: 800px){
+  .commercialintro h2{
+    font-size: 25px;
+  }
+  .commercialintro h2:hover{
+     font-size: 30px;
+  }
+  .commercialintro p{
+    width: 90%;
+    font-size: 13px;
+  }
+.commercialimg{
+    float: left;
+  margin-left:60px;
+  margin-top: -5px;
+  width:60%;
+  height: 200px;
+  }
+  .survey{
+    margin-top: 250px;
+  }
+  .survey h2{
+    font-size: 25px;
+  }
+  .survey p{
+    font-size: 13px;
+  }
+  .managementimg{
+      float: left;
+  margin-left:60px;
+  margin-top: -5px;
+  width:50%;
+  height: 200px;
+ margin-right: 300px;
+ margin-bottom: 30px;
+  }
+  .management h2{
+      font-size: 25px;
+  }
+  .management p{
+     font-size: 13px;
+  }
+}
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.a{
+  height: 300px;
+  border: 1px solid blue;
+}
+
+#footer {
+  color: white;
+  padding: 2.5rem 0;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  #footer h5 {
+    font-size: 15px;
+    margin: 1.875rem 0; }
+  #footer hr {
+    width: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.38);
+    border-top: none; }
+  #footer h6 {
+    font-size: 13px;
+    margin: 0.5rem 0; }
+  #footer #social-icons {
+    padding: 0.75rem 0; }
+    #footer #social-icons img {
+      width: 2.25rem;
+      padding: 0 0.25rem;
+      transition: all .2s; }
+      #footer #social-icons img:hover {
+        transform: scale(1.2); }
